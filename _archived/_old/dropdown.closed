@@ -1,0 +1,74 @@
+<li class="header-navigation_list-item main-menu"
+    id="resources-dropdown">
+    <div class="dropdown-container"><button aria-haspopup="resources-categories"
+                type="button"
+                style="background: none; border: none; font-weight: inherit; display: inline-block; padding: 0px; margin: 0px; cursor: pointer;">
+
+            <span style="display: flex; align-items: center;"
+                  class="main-menu-trigger"
+                  role="combobox"
+                  aria-haspopup="listbox"
+                  aria-labelledby="downshift-1-label"
+                  aria-autocomplete="list"
+                  value=""
+                  id="downshift-1-input"
+                  autocomplete="off">
+
+                <span>Resources</span>
+
+                <svg aria-hidden="true"
+                     width="16"
+                     height="16"
+                     class=""
+                     viewBox="0 0 24 24"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.41 8.58997L12 13.17L16.59 8.58997L18 9.99997L12 16L6 9.99997L7.41 8.58997Z"
+                          fill="currentColor"></path>
+
+                </svg></span></button>
+        <ul role="resources-categories"
+            class="dropdown dropdown--forums-overview is-hidden"
+            component="ul"
+            tabindex="-1">
+            <li aria-hidden="true"
+                class="arrow is-hidden-S"></li>
+            <li class="main-menu-list--overflow-scroll">
+                <ul class="main-menu-list main-menu-list--quicklinks"
+                    id="resources-dropdown-quicklinks">
+                    <template id="resources-dropdown-quicklink-template">
+                        <li class="main-menu-list__item main-menu-list__item--no-hover"
+                            id="downshift-1-item-INDEX"
+                            role="option">
+
+                            <a href="HREF"
+                               class="main-menu-link link--text">
+                                TITLE
+
+                            </a>
+                        </li>
+                    </template>
+                </ul>
+                <ul class="main-menu-list"
+                    id="resources-dropdown-mainlinks"
+                    style="display: none;">
+                    <template id="resources-dropdown-mainlink-template">
+                        <li class="main-menu-list__item main-menu-list__item--no-hover"
+                            id="downshift-1-item-INDEX"
+                            role="option">
+
+                            <a href="HREF"
+                               title="TITLE"
+                               class="link--text main-menu-link main-menu-link--category">
+
+                                <span><strong>TITLE</strong></span>
+
+                                <span class="text--meta"></span>
+
+                            </a>
+                        </li>
+                    </template>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</li>

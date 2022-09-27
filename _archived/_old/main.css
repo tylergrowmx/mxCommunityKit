@@ -1,0 +1,11 @@
+li.main-menu-list__item:hover, 
+ li.main-menu-list__item:focus, 
+ li.main-menu-list__item:focus-within, 
+ li.main-menu-list__item:active { 
+     color: var(--config--main-color-brand); 
+ } 
+  
+ .nav-item-hidden { 
+     display: none !important; 
+ } 
+ 
